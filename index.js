@@ -49,3 +49,11 @@ function increaseGuestScoreThree ()  {
 guestScoreBtnOne.addEventListener("click", increaseGuestScoreOne)
 guestScoreBtnTwo.addEventListener("click", increaseGuestScoreTwo)
 guestScoreBtnThree.addEventListener("click", increaseGuestScoreThree)
+
+
+function resetGame() {
+    homeScore = 0
+    guestScore = 0
+    homeStoreEl.textContent = homeScore
+    guestStoreEl.textContent = guestScore
+}
