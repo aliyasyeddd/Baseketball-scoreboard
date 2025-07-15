@@ -2,6 +2,10 @@ const homeScoreBtnOne = document.getElementById("home-score-btn-1")
 const homeStoreEl =document.getElementById("home-score")
 const homeScoreBtnTwo = document.getElementById("home-score-btn-2")
 const homeScoreBtnThree = document.getElementById("home-score-btn-3")
+const guestScoreBtnOne = document.getElementById("guest-score-btn-1")
+const guestStoreEl = document.getElementById("guest-score")
+const guestScoreBtnTwo = document.getElementById("guest-score-btn-2")
+const guestScoreBtnThree = document.getElementById("guest-score-btn-3")
 
 let homeScore = 0
 let guestScore = 0
@@ -26,10 +30,6 @@ homeScoreBtnOne.addEventListener("click", increaseHomeScoreOne)
 homeScoreBtnTwo.addEventListener("click", increaseHomeScoreTwo)
 homeScoreBtnThree.addEventListener("click", increaseHomeScoreThree)
 
-const guestScoreBtnOne = document.getElementById("guest-score-btn-1")
-const guestStoreEl = document.getElementById("guest-score")
-const guestScoreBtnTwo = document.getElementById("guest-score-btn-2")
-const guestScoreBtnThree = document.getElementById("guest-score-btn-3")
 
 function increaseGuestScoreOne ()  {
     guestScore += 1
